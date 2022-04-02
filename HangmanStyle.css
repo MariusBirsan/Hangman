@@ -1,0 +1,125 @@
+body {
+    background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    image-resolution: from-image;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.attempts {
+    position: relative;
+    left: 30px;
+    top: 125px;
+    color: white;
+
+}
+
+#startButton {
+    position: relative;
+    left: 45%;
+    font-size:x-large;
+    height: 70px;
+    position: relative;
+    border: 3px solid rgb(0, 10, 0);
+    border-radius: 35px;
+    background-color: #4404aa;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+#restart {
+    position: relative;
+    left: 45%;
+    font-size:x-large;
+    height: 70px;
+    position: relative;
+    border: 3px solid rgb(0, 10, 0);
+    border-radius: 35px;
+    background-color: #04aaa2;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.list {
+    color:white;
+    position: relative;
+    border-radius: 15px;
+    left: 2%;
+}
+
+Button {
+    background-color: #04AA6D;
+    border: black, 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    margin: 4px 2px;
+}
+
+#letterInput, #userInput {
+    height: 1px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.enterWords {
+    color: white;
+    position: relative;
+    border-radius: 15px;
+    left: 4%;
+    margin-top: 15%;
+}
+
+#word {
+    height: 1px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20px;
+}
+
+.out {
+    color: white;
+}
+
+.gameOver{
+    position: relative;
+    bottom: 600px;
+    left: 1500px;
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#resetMessage {
+    position: relative;
+    bottom: 600px;
+    left: 1500px;
+    color: greenyellow;
+    font-size: 25px;
+    font-weight: bolder;
+}

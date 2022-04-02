@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link rel="stylesheet" href="HangmanStyle.css">
+        <script src="Hangman.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>HANGMAN</h1>
+            <button type="button" id="startButton" onclick="gameStart()">START</button><br>
+            <input type="button" id="restart" value="RESET" onClick="window.location.reload(true)">
+            <h3>Enter the words and press START to begin the game</h3>
+        </div>
+        <div class="list">
+            <label for="name">Create the list of words</label>
+            <input id="userInput" onkeyup="this.value = this.value.toUpperCase();" maxlength="15" type="password">
+            <button type="button" id="addButton" onclick="addWords()">Add</button>
+
+        </div>
+        <div class="attempts">
+            <h3 id="attemptsMessage">GAME ATTEMPTS: 10</h3>
+        </div>
+        <div class="enterWords">
+            <label for="name">Enter a letter</label>
+            <input type="text" id="letterInput" onkeyup="this.value = this.value.toUpperCase();" maxlength="1">
+            <button type="button" id="checkButton" onclick="checkLetter()">Check</button>
+        </div>
+        <h2 id="output" onkeyup="this.value = this.value.toUpperCase();"></h2>
+        <div class="gameOver">
+            <p id="gameOverMessage"></p>
+        </div>
+        <div class="reset">
+            <p id="resetMessage"></p><br>
+            
+        </div>
+
+    </body>
+</html>
